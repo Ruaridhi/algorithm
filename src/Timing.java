@@ -24,7 +24,8 @@ public class Timing {
             for (int i = 0; i < arraySize; i++){
                 array.add(i);
             }
-            Collections.reverse(array);
+            Collections.shuffle(array);
+            Collections.sort(array);
         }
 
 

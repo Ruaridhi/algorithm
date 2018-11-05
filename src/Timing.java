@@ -1,43 +1,29 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Timing {
 
 
         public static void main(String[] args){
-            lastTime();
-        }
-
-
-        public static int firstArray() {
-            int[] intArray = new int[10];
-            return intArray[0];
-        }
-
-        public static void firstTime() {
+            int[] range = {10,100,1000,3000,5000,10000,30000,50000,100000,300000,500000,1000000};
+            for (int arraySize : range) {
                 long startTime = System.nanoTime();
-                firstArray();
+                testableMethod(arraySize);
                 long endTime = System.nanoTime();
                 long duration = (endTime - startTime);
-                System.out.println("Returning first of array lasts: "+ duration + "ns");
+                System.out.println(arraySize + ": " + duration + "ns");
+            }
+
         }
 
-        public static int lastArray() {
-            int[] intArray = new int[1000000];
+
+        public static int testableMethod(int arraySize) {
+            int[] intArray = new int[arraySize];
             return intArray[intArray.length -1];
         }
 
-        public static void lastTime() {
-            long startTime = System.nanoTime();
-            lastArray();
-            long endTime = System.nanoTime();
-            long duration = (endTime - startTime);
-            System.out.println("Returning first of array lasts: "+ duration + "ns");
-        }
 
     }
-
-
-
 
 
 

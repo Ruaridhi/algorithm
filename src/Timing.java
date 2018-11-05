@@ -1,5 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 
 public class Timing {
 
@@ -11,15 +13,18 @@ public class Timing {
                 testableMethod(arraySize);
                 long endTime = System.nanoTime();
                 long duration = (endTime - startTime);
-                System.out.println(arraySize + ": " + duration + "ns");
+                System.out.println(duration);
             }
 
         }
 
 
-        public static int testableMethod(int arraySize) {
-            int[] intArray = new int[arraySize];
-            return intArray[intArray.length -1];
+        public static void testableMethod(int arraySize) {
+            ArrayList<Integer> array = new ArrayList<Integer>();
+            for (int i = 0; i < arraySize; i++){
+                array.add(i);
+            }
+            Collections.reverse(array);
         }
 
 

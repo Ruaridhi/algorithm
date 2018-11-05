@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e5fbec7-0d96-49a7-a914-b88a87f65bb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Timing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rps/src/main/js/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rps/src/main/js/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rps/src/main/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rps/src/main/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rps/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rps/src/main/resources/templates/home.html" afterDir="false" />
@@ -36,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1849" />
+          <entry key="java" value="1903" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1849" />
+          <entry key="JAVA" value="1903" />
         </counts>
       </usages-collector>
     </session>
@@ -51,11 +51,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Timing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="81">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541421147377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541421706185" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -202,12 +202,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541414600895</updated>
-      <workItem from="1541414603962" duration="6366000" />
+      <workItem from="1541414603962" duration="6925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6366000" />
+    <option name="totallyTimeSpent" value="6925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="23" width="1379" height="797" extended-state="0" />
@@ -298,11 +298,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Timing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="81">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
           </folding>
         </state>
       </provider>

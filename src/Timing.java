@@ -4,19 +4,13 @@ public class Timing {
 
 
         public static void main(String[] args){
-            firstTime();
+            lastTime();
         }
 
 
         public static int firstArray() {
-            int[] intArray = new int[1000000];
+            int[] intArray = new int[10];
             return intArray[0];
-        }
-
-        public static int lastArray() {
-            int[] intArray = new int[1000000];
-            System.out.println(intArray[intArray.length]);
-            return intArray[intArray.length];
         }
 
         public static void firstTime() {
@@ -25,6 +19,19 @@ public class Timing {
                 long endTime = System.nanoTime();
                 long duration = (endTime - startTime);
                 System.out.println("Returning first of array lasts: "+ duration + "ns");
+        }
+
+        public static int lastArray() {
+            int[] intArray = new int[1000000];
+            return intArray[intArray.length -1];
+        }
+
+        public static void lastTime() {
+            long startTime = System.nanoTime();
+            lastArray();
+            long endTime = System.nanoTime();
+            long duration = (endTime - startTime);
+            System.out.println("Returning first of array lasts: "+ duration + "ns");
         }
 
     }

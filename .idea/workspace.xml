@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e5fbec7-0d96-49a7-a914-b88a87f65bb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Timing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Timing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rps/src/main/js/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rps/src/main/js/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rps/src/main/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rps/src/main/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rps/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rps/src/main/resources/templates/home.html" afterDir="false" />
@@ -22,6 +20,7 @@
     <session id="336079524">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -53,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Timing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="358">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#712#721#0" expanded="true" />
@@ -134,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541433307682" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541433531692" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -204,16 +203,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541414600895</updated>
-      <workItem from="1541414603962" duration="13126000" />
+      <workItem from="1541414603962" duration="13530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13126000" />
+    <option name="totallyTimeSpent" value="13530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="640" y="23" width="800" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -226,11 +224,11 @@
       <window_info anchor="bottom" id="Analysis" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Timing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="358">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#712#721#0" expanded="true" />

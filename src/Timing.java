@@ -12,29 +12,29 @@ long endTime = System.nanoTime();
 long duration = (endTime - startTime);
 System.out.println(duration);
             }
-
         }
-
 
         public static void testableMethod(int arraySize) {
             //Set up a list
-            ArrayList<Integer> aug = new ArrayList<Integer>();
+            ArrayList<Integer> array = new ArrayList<Integer>();
             for (int i = 0; i < arraySize; i++){
-                aug.add(i);
+                array.add(i);
             }
+            // [1
 
-            // Set how many groups
-            int numberOfGroups = 3;
+            //Shuffle it
+            //Mix these cards: card in the 1st position goes to into a random position, card in the second position goes into a random position
+            //One position can only have one card
 
-            // Divide the number of people by groups
-            int membersPerGroup = aug.size() / numberOfGroups;
+            //create a random object called 'random' (you can then run .nextInt to set the maximum limit so: random.nextInt(3) would give you 0,1,2 or 3.
+            Random random = new Random();
 
-            // Create equal groups
-            for (int start = 0; start < aug.size(); start += membersPerGroup) {
-                int end = Math.min(start + membersPerGroup, aug.size());
-                List<Integer> group = aug.subList(start, end);
-            // Show the groups
-//            System.out.println(group);
+            // Loop from 1,2,3,4,5,5,6,....to arraySize.
+            for (int i = 0; i < arraySize; i++) {
+                int randomPosition = random.nextInt(arraySize);
+                int temp = array.get(i);
+                array.set(i, array.get(randomPosition));
+                array.set(randomPosition, temp);
             }
         }
     }

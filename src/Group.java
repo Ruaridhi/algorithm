@@ -16,12 +16,11 @@ public class Group {
 
     public void divide() {
 
-
         // Create equal groups
         for (int start = 0; start < aug.size(); start += membersPerGroup) {
             int end = Math.min(start + membersPerGroup, aug.size());
             List<String> group = aug.subList(start, end);
-            // Show the groups
+        // Show the groups
             System.out.println(group);
         }
     }
